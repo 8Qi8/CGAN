@@ -1,0 +1,34 @@
+# Local environments and credentials
+.env
+.env.*
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Python and operating-system files
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Research data, weights, outputs, and logs
+input/
+data/
+datasets/
+models/
+experiments/
+checkpoints/
+output/
+outputs/
+logs/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.zip
+*.tar
+*.tar.gz
